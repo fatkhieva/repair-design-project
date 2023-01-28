@@ -75,6 +75,10 @@ section {
     color: rgba(255, 255, 255, 0.5);
 }
 
+.ipt.color-white {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.125);
+}
+
 .custom-cbx-label {
     cursor: pointer;
 }
@@ -863,7 +867,7 @@ section {
 }
 
 .questions-form-name label {
-    flex: 0 0 50%;
+    flex: 1 1 auto;
 }
 
 .contact-questions-title {
@@ -875,8 +879,44 @@ section {
     text-transform: uppercase;
     color: #E3B873;
     max-width: 600px;
-    margin: 40px auto;
+    margin: 40px auto 24px;
 }
+
+.contact-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-logo-mail,
+.contact-logo-inst {
+    margin-right: 15px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3B873;
+    border-radius: 50%;
+    box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+}
+
+.contact-logo-mail-logo {
+    content: url('../img/mail.svg');
+}
+
+.contact-logo-inst-logo {
+    content: url('../img/inst.svg');
+}
+
+.map {
+   margin: 45px auto;
+   display: block; 
+   text-align: center;
+   max-width: 925px;
+}
+ 
+
+
 
 
 .main-info.bottom-info {
