@@ -71,6 +71,10 @@ section {
     background-color: transparent;
 }
 
+.ipt-label {
+    color: rgba(255, 255, 255, 0.5);
+}
+
 .custom-cbx-label {
     cursor: pointer;
 }
@@ -86,6 +90,7 @@ section {
     background: #E3B873;
     color: #fff;
     justify-content: center;
+    margin-right: 8px;
 }
 
 .custom-cbx-fake::before{
@@ -106,8 +111,16 @@ section {
     color: #363636;
 }
 
+.color-white {
+    color: #ffffff;
+}
+
 .shade {
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+.text-center {
+    text-align: center;
 }
 
 .icon-label {
@@ -695,7 +708,7 @@ section {
     background-image: url('../img/city.svg');
     background-repeat: repeat-x;
     background-position: bottom;
-    padding-bottom: 240px;
+    padding-bottom: 340px;
 }
 
 .clients-title {
@@ -817,6 +830,42 @@ section {
     padding: 50px 0;
 }
 
+.questions-form {
+    max-width: 880px;
+    margin: -250px auto 50px;
+    padding: 32px 180px;
+}
+
+.questions-form h4 {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.questions-form input[type='text'] {
+    width: 100%;
+}
+
+.questions-form input::placeholder {
+    color: #ffffff;
+}
+
+.questions-form > div {
+    margin-top: 40px;
+}
+
+.questions-form-name {
+    display: flex;
+    gap: 40px;
+}
+
+.questions-form-name label {
+    flex: 0 0 50%;
+}
+
 .contact-questions-title {
     font-family: 'Yeseva One';
     font-weight: 400;
@@ -828,6 +877,7 @@ section {
     max-width: 600px;
     margin: 40px auto;
 }
+
 
 .main-info.bottom-info {
     height: 133px;
