@@ -132,7 +132,7 @@ section {
 
 /*  HEADER BLOCK  */
 
-.main-header {
+.main-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -492,19 +492,19 @@ section {
 
 .repair-contact-types {
     flex: 0 0 50%;
-    background-image: url('../img/image_7.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 30px 0;
 }
 
+.repair-types-section {
+    background-image: url('../img/image_7.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
 .repair-contact-form {
-    /* flex: 0 0 50%; */
     background-color: #131313;
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
     width: 100%;
@@ -691,6 +691,13 @@ section {
 
 /* OUR CLIENTS */
 
+.clients-section {
+    background-image: url('../img/city.svg');
+    background-repeat: repeat-x;
+    background-position: bottom;
+    padding-bottom: 240px;
+}
+
 .clients-title {
     margin-top: 110px;
     font-family: 'Yeseva One';
@@ -796,3 +803,32 @@ section {
     color: #FFFFFF;
 }
 
+/* CONTACTS */
+
+.contacts-section {
+    background-image: url('../img/image_12.png');
+    background-color: rgba(0, 0, 0, 0.7);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-questions {
+    padding: 50px 0;
+}
+
+.contact-questions-title {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.main-info.bottom-info {
+    height: 133px;
+}
